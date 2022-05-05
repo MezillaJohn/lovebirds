@@ -347,6 +347,11 @@ h1, h2, h3, h4 {
   margin-bottom: 5rem;
 }
 
+@media (max-width: 56.25em) {
+  .blog-text {
+    width: 100%;
+  }
+}
 .composition {
   position: relative;
 }
@@ -1031,12 +1036,12 @@ h1, h2, h3, h4 {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
-  background-image: radial-gradient(#124374, #124374);
+  background-image: radial-gradient(#000, #124374);
   position: fixed;
   top: 3rem;
   right: 3rem;
   z-index: 1;
-  transition: all 0.8s;
+  transition: all 0.8s cubic-bezier(0.83, 0, 0.17, 1);
 }
 
 @media (max-width: 56.25em) {
@@ -1050,11 +1055,11 @@ h1, h2, h3, h4 {
   height: 100vh;
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 5;
   opacity: 0;
   width: 0;
-  transition: all 0.8s;
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .navigation__list {
@@ -1063,6 +1068,7 @@ h1, h2, h3, h4 {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
 }
 
 .navigation__item {
@@ -1231,6 +1237,7 @@ h1, h2, h3, h4 {
 .feature1 {
   padding: 10rem 2rem;
   background-color: #f2f2f2;
+  border-bottom: 1px solid #999;
 }
 
 #blog {

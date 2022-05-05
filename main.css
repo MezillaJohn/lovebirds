@@ -207,7 +207,7 @@ h1, h2, h3, h4 {
 }
 @media (max-width: 37.5em) {
   .paragraph {
-    width: 70%;
+    width: 90%;
   }
 }
 .paragraph1 {

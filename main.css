@@ -147,10 +147,11 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 37.5em) {
-        .heading-primary {
-          font-size: 3rem;
-          width: 100%; } }
-
+  .heading-primary {
+    font-size: 3.5rem;
+    width: 100%;
+  }
+}
 .heading-primary__main--joy {
   color: #2d6eaf;
 }
@@ -284,7 +285,7 @@ h1, h2, h3, h4 {
 }
 
 .quote-text {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-family: "Roboto Mono", monospace;
   color: #f2f2f2;
   text-transform: uppercase;
@@ -965,7 +966,7 @@ h1, h2, h3, h4 {
 }
 .header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hero-2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/hero-2.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -999,7 +1000,7 @@ h1, h2, h3, h4 {
 
 @media (max-width: 56.25em) {
   .logo-box {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 .navigation__checkbox {
@@ -1174,7 +1175,7 @@ h1, h2, h3, h4 {
 
 .section-header {
   height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../images/couples9.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/couples9.jpg);
   background-position: center;
   background-size: 100%;
   padding: 10rem 2rem;
@@ -1197,7 +1198,7 @@ h1, h2, h3, h4 {
 
 .contact-header {
   height: 60vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/contact.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/contact.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1222,7 +1223,7 @@ h1, h2, h3, h4 {
 }
 .Quote {
   padding: 8rem 2rem;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/couples1.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/couples1.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -1239,7 +1240,7 @@ h1, h2, h3, h4 {
 
 .testimonial {
   padding: 10rem 2rem;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../images/couples6.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/couples6.jpg);
   background-size: cover;
   background-position: center;
 }

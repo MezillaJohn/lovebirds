@@ -146,6 +146,11 @@ h1, h2, h3, h4 {
   display: block;
 }
 
+@media (max-width: 37.5em) {
+        .heading-primary {
+          font-size: 3rem;
+          width: 100%; } }
+
 .heading-primary__main--joy {
   color: #2d6eaf;
 }

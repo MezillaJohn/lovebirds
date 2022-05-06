@@ -1185,7 +1185,8 @@ h1, h2, h3, h4 {
   height: 80vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/couples9.jpg);
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 10rem 2rem;
   border-bottom: 1px solid #555555;
   position: relative;

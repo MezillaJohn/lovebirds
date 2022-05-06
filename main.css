@@ -998,6 +998,7 @@ h1, h2, h3, h4 {
   color: #fff;
   font-family: "Koulen", cursive;
   font-size: 3rem;
+  font-weight: 400;
   text-transform: uppercase;
   z-index: 9000;
 }
@@ -1009,6 +1010,7 @@ h1, h2, h3, h4 {
 }
 .navigation__checkbox {
   display: none;
+  visibility: hidden;
 }
 
 .navigation__button {
@@ -1054,7 +1056,7 @@ h1, h2, h3, h4 {
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 5;
   opacity: 0;
   width: 0;
@@ -1180,7 +1182,7 @@ h1, h2, h3, h4 {
 
 .section-header {
   height: 80vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(images/couples9.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/couples9.jpg);
   background-position: center;
   background-size: 100%;
   padding: 10rem 2rem;

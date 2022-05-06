@@ -136,19 +136,13 @@ h1, h2, h3, h4 {
           animation-duration: 1s;
 }
 
-@media (max-width: 37.5em) {
-  .heading-primary {
-    font-size: 3.5rem;
-    width: 100%;
-  }
-}
 .heading-primary__main {
   display: block;
 }
 
 @media (max-width: 37.5em) {
   .heading-primary {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     width: 100%;
   }
 }
@@ -274,6 +268,11 @@ h1, h2, h3, h4 {
   box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.4);
 }
 
+@media (max-width: 56.25em) {
+  .btn-blue {
+    font-size: 1.4rem;
+  }
+}
 .btn-text {
   color: #2d6eaf;
   border-bottom: 0.1rem solid #2d6eaf;
@@ -712,6 +711,9 @@ h1, h2, h3, h4 {
 }
 .review-heading {
   color: #f2f2f2;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
 }
 
 .review {
@@ -745,6 +747,8 @@ h1, h2, h3, h4 {
 @media (max-width: 56.25em) {
   .review__img {
     transform: translateX(-3rem) skewX(0);
+    width: 8rem;
+    height: 8rem;
   }
 }
 .review__photo {
@@ -951,19 +955,19 @@ h1, h2, h3, h4 {
 
 .container {
   max-width: 95%;
-  margin: 0 auto;
+  margin: 10rem auto 0 auto;
 }
 
 @media (max-width: 56.25em) {
   .container {
     max-width: 80%;
-    margin: 0 auto;
+    margin: 10rem auto 0 auto;
   }
 }
 @media (max-width: 37.5em) {
   .container {
     max-width: 90%;
-    margin: 0 auto;
+    margin: 10rem auto 0 auto;
   }
 }
 .header {
@@ -971,8 +975,8 @@ h1, h2, h3, h4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/hero-2.jpg);
   background-size: cover;
   background-position: center;
-  position: relative;
   display: flex;
+  justify-content: start;
   align-items: center;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);

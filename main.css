@@ -142,7 +142,7 @@ h1, h2, h3, h4 {
 
 @media (max-width: 37.5em) {
   .heading-primary {
-    font-size: 2.5rem;
+    font-size: 3rem;
     width: 100%;
   }
 }
@@ -786,6 +786,15 @@ h1, h2, h3, h4 {
   transition: all 0.2s;
 }
 
+@media (max-width: 56.25em) {
+  .review__caption {
+    top: 0;
+    left: 18%;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 1.6rem;
+  }
+}
 .review:hover .review__photo {
   filter: blur(0.5rem) brightness(60%);
   transform: scale(1);
@@ -796,17 +805,6 @@ h1, h2, h3, h4 {
 .review:hover .review__caption {
   top: 40%;
   opacity: 1;
-}
-
-.review__icon {
-  color: #2d6eaf;
-  cursor: pointer;
-  font-size: 2rem;
-  transition: all 0.2s;
-}
-
-.review__icon:hover {
-  transform: scale(1.5);
 }
 
 .review-btn {
